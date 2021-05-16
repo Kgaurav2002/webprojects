@@ -1,0 +1,208 @@
+*{
+    box-sizing: border-box;
+}
+body a{
+    text-decoration: none;
+}
+body{
+    background-color: rgb(160, 43, 43);
+}
+.container-fluid{
+    
+    padding: 15px
+}
+.navbar-brand{
+    font-size: 23px;
+   
+    
+}
+.container-fluid .navbar-brand{ 
+    font-family: 'Goblin One', cursive;
+    color: #198754 ;
+    text-shadow:1px 1px 1px black;
+}
+ .nav-item {
+    color: rgb(160, 43, 43);
+    text-align: center;
+    font-weight: bolder;
+    padding: 5px;
+    background-color: #ffc107;
+    margin-right: 20px;
+    
+    
+}
+
+  .jumbotron{
+    margin-top: 20px;
+      border: black 2px solid;
+  }
+
+.nav-item:hover{
+    background-color: rgb(252, 247, 232);
+}
+#menu, #special, #map{
+    height: 250px;
+    width: 100%;
+    position: relative;
+   
+    margin-top: 20px;
+    border-radius: 5px;
+}
+#m1,#m2,#m3, #m4,#m5, #m6, #m7, #m8{
+    height: 250px;
+    width: 100%;
+    position: relative;
+   
+    margin-top: 50px;
+    border-radius: 5px;
+}
+h2{
+    margin-top: 20px;
+    color: white;
+}
+   .about {
+    font-size: 29px;
+    color: white;
+    
+}
+#about-container{
+    margin-bottom: 125px;
+}
+#award-container{
+    margin-bottom: 228px;
+}
+
+#m1 span,#m2 span,#m3 span, #m4 span,#m5 span, #m6 span, #m7 span, #m8 span{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    opacity: .7;
+    font-size: 1.5em;
+    color: white;
+ }
+ #m1:hover,#m2:hover,#m3:hover, #m4:hover,#m5:hover, #m6:hover, #m7:hover, #m8:hover{
+    box-shadow:0 1px 5px 3px rgb(139, 136, 136);
+ }
+#menu span, #special span, #map span{
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+   background-color: rgb(0, 0, 0);
+   opacity: .7;
+   font-size: 1.5em;
+   color: white;
+}
+#m1{
+    background: url(https://cdn.pixabay.com/photo/2014/11/05/15/57/salmon-518032__340.jpg) no-repeat;
+    background-position: center;
+}
+#m2{
+    background: url(https://cdn.pixabay.com/photo/2018/08/31/19/13/pumpkin-soup-3645375__340.jpg) no-repeat;
+    background-position: center;
+}
+#m3{
+    background: url(https://cdn.pixabay.com/photo/2021/01/27/13/08/chicken-5954894__340.jpg) no-repeat;
+    background-position: bottom;
+}
+#m4{
+    background: url(https://cdn.pixabay.com/photo/2017/12/26/04/51/fish-and-chip-3039746__340.jpg) no-repeat;
+    background-position: center;
+}
+#m5{
+    background: url(https://cdn.pixabay.com/photo/2021/04/30/12/01/short-ribs-6218752__340.jpg) no-repeat;
+    background-position: center;
+}
+#m6{
+    background: url(https://cdn.pixabay.com/photo/2016/02/19/10/00/food-1209007__340.jpg) no-repeat;
+    background-position:right;
+}
+#m7{
+    background: url(https://cdn.pixabay.com/photo/2014/11/05/16/00/thai-food-518035__340.jpg) no-repeat;
+    background-position: center;
+}
+#m8{
+    background: url(https://cdn.pixabay.com/photo/2014/08/26/12/49/the-cake-427920__340.jpg) no-repeat;
+    background-position: center;
+}
+
+#menu{
+    background: url(https://cdn.pixabay.com/photo/2014/12/15/13/40/meat-569073__340.jpg) no-repeat;
+    background-position: center;
+}
+#special{
+    background: url(https://cdn.pixabay.com/photo/2018/04/18/17/22/dessert-3331009__340.jpg) no-repeat;
+    background-position: center;
+}
+#map{
+    background: url(https://cdn.pixabay.com/photo/2020/11/18/16/57/navigation-5755999__340.jpg
+      
+    ) no-repeat;
+    background-position: center;
+}
+#menu:hover, #special:hover, #map:hover{
+    box-shadow:0 1px 5px 3px rgb(139, 136, 136);
+}
+/* lunch menu styles */
+#single{
+    color: white;
+}
+#lunch{
+    margin-top: 40px;
+   
+}
+#l1 img,#l2 img,#l3 img,#l4 img,#l5 img,#l6 img{
+    float: left;
+}
+#l1 span,#l2 span,#l3 span,#l4 span,#l5 span,#l6 span{
+    text-align: center;
+}
+#l1,#l2,#l3,#l4,#l5,#l6{
+      margin-bottom: 40px;
+}
+
+/*footer styles*/
+footer{
+    background-color: rgb(71, 69, 69);
+    margin-top: 40px;
+    padding: 20px;
+    color: white;
+    
+}
+
+
+footer span{
+    font-size: 1.5em;
+}
+#foot{
+    text-align: center;
+}
+
+@media (max-width:473px){
+    .navbar-brand{
+        font-size: 15px;
+       
+        
+    }
+    
+    
+    #c1{
+        margin-left: 3.8em;
+    }
+    #m1,#m2,#m3, #m4,#m5, #m6, #m7, #m8{
+        height: 200px;
+        width: 200px;
+       
+       
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+    
+    .jumbotron img{
+        height: 350px;
+        width:100%;
+    }
+   
+}
